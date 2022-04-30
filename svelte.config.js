@@ -9,6 +9,9 @@ const config = {
 		adapter: adapter({}),
 		vite: {
 			plugins: [WindiCSS()]
+		},
+		prerender: {
+			default: true
 		}
 	},
 	preprocess: sveltePreprocess(),
