@@ -50,6 +50,10 @@ export const appData = [
       {
         "path": "/serien/editor",
         "name": "Editor"
+      },
+      {
+        "path": "/serien/add",
+        "name": "Add"
       }
     ]
   },
@@ -94,6 +98,21 @@ export const appData = [
     "link": {
       "path": "/serien/editor",
       "name": "Episoden Editor",
+      "icon": "database",
+      "sub": true
+    },
+    "navi": []
+  },
+  {
+    "id": 5,
+    "slug": "serien",
+    "head": {
+      "titel": "South Park Collection",
+      "sub": "Add Episode"
+    },
+    "link": {
+      "path": "/serien/add",
+      "name": "Add Episoden",
       "icon": "database",
       "sub": true
     },

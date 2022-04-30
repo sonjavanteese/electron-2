@@ -31,7 +31,7 @@ export default defineConfig({
         gray: colors.slate,
         blue: colors.sky,
         //  red: colors.pink,
-        pink: colors.fuchsia,
+        // pink: colors.fuchsia,
         primary: {
           light: '#3896d3',
           DEFAULT: '#2980b9',
